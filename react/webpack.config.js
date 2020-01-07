@@ -42,6 +42,7 @@ const config = {
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     port: 9000,
+    open: true,
     hot: true
   }
 };
